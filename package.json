@@ -1,0 +1,29 @@
+{
+  "name": "angular-http-url-standard-encoding-codec",
+  "version": "1.0.0",
+  "description": "Codec implementing HttpParameterCodec interface which URL-encodes HTTP params without a symbol black list",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitriyremerov/angular-http-url-standard-encoding-codec.git"
+  },
+  "author": "Dimitriy Remerov <d@remerov.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimitriyremerov/angular-http-url-standard-encoding-codec/issues"
+  },
+  "homepage": "https://github.com/dimitriyremerov/angular-http-url-standard-encoding-codec#readme",
+  "dependencies": {
+    "@angular/common": "^6.0.9"
+  },
+  "devDependencies": {
+    "@angular/core": "^6.0.9",
+    "rxjs": "^6.2.2",
+    "typescript": "^2.9.2"
+  }
+}
